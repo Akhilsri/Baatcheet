@@ -25,6 +25,6 @@ app.get('/', (req, res) => {
     });
   });
 
-server.listen(3000, () => {
-  console.log('server running at http://localhost:3000');
-});
+  server.listen('49.43.116.96', () => {
+    console.log('server running at http://49.43.116.96:3000');
+  });
